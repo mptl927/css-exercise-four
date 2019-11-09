@@ -1,4 +1,62 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 18px;
+}
+.container {
+  width: 100%;
+  background-color: #dadada;
+  margin-top: 40px;
+}
+div {
+  float:left;
+  margin: 2%;
+  width: 98%;
+  height: 400px;
+}
+h1 {
+  font-size: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5%;
+  font-weight:bold;
+}
+.baku {
+  background-image: url('../images/baku.jpg');
+  background-size:cover;
+
+}
+.london {
+    background-image: url('../images/london.png');
+    background-size: cover;
+}
+.madrid {
+  background-image: url('../images/madrid.jpg');
+  background-size:cover;
+}
+.rome {
+  background-image:url('../images/rome.jpg');
+  background-size:cover;
+}
+h2 {
+  font-size:150%;
+  color: black;
+  font-weight: normal;
+  text-align: left;
+  margin: 5%
+}
+@media screen and (min-width:575px) {
+  div{
+    margin:2%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 990px) {
+  div {
+    margin: .5%;
+    width: 24%;
+  }
 }
